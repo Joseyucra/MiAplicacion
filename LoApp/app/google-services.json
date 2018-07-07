@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "983661660563",
+    "firebase_url": "https://milogueo-b7af0.firebaseio.com",
+    "project_id": "milogueo-b7af0",
+    "storage_bucket": "milogueo-b7af0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983661660563:android:f102eb52a293e824",
+        "android_client_info": {
+          "package_name": "com.example.ariel.loapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983661660563-aa7q8ib43ktgg1k49rhvgl0fipsibgvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ariel.loapp",
+            "certificate_hash": "6c6e07963cfa33de515b9a6a0e321a82f165eebe"
+          }
+        },
+        {
+          "client_id": "983661660563-tfjeg6i0k2d0detb0c9mpv16f08ag82v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxgRU_CpvmtWJIGOyEL6g5_4jTiqO12xQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983661660563-tfjeg6i0k2d0detb0c9mpv16f08ag82v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

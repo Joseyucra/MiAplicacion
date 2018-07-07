@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detallesCasa">
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/side_nav_bar"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text="precio:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tipo1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/side_nav_bar"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text="tipo:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/estado"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/side_nav_bar"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text="estado"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/precio"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/side_nav_bar"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text="imagenes"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ven_alqui"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+
+            <ListView
+                android:id="@+id/lis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/ic_menu_gallery" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text="Superficie de la vivienda:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:background="@drawable/side_nav_bar" />
+            <TextView
+                android:id="@+id/superficie"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text="Precio de la vivienda:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:background="@drawable/side_nav_bar" />
+            <TextView
+                android:id="@+id/pisos"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text="Numero de habitaciones:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:background="@drawable/side_nav_bar" />
+            <TextView
+                android:id="@+id/habitaciones"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text="Numero de baños:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:background="@drawable/side_nav_bar" />
+            <TextView
+                android:id="@+id/banos"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text="Numero de cocinas:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:background="@drawable/side_nav_bar" />
+            <TextView
+                android:id="@+id/cocina"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text="Tamaño del garage:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:background="@drawable/side_nav_bar" />
+
+            <TextView
+                android:id="@+id/tam_gar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text="Telefono de la vivienda:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:background="@drawable/side_nav_bar" />
+            <TextView
+                android:id="@+id/telefono"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text="Detalles de la vivienda:"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:background="@drawable/side_nav_bar" />
+
+            <TextView
+                android:id="@+id/detalles"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:shadowColor="#8a6603"
+                android:shadowDx="3"
+                android:shadowDy="2"
+                android:shadowRadius="1.8"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:map="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context="com.example.root.sinlogin.MapsActivity" />
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/contac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:text="Programar visita"
+                android:background="@drawable/side_nav_bar" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
